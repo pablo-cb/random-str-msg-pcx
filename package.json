@@ -1,0 +1,21 @@
+{
+  "name": "random-str-msg-pcx",
+  "version": "1.0.0",
+  "description": "Random String Messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pablo Calderon Bravo",
+  "license": "MIT",
+  "homepage": "https://github.com/pablo-cb/random-str-msg-pcx#readme",
+  "bin": {
+    "random-str-msg-pcx": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1",
+    "random-str-msg-pcx": "file:../../../../documents/code-learnings/npm/random-str-msg-pcx"
+  }
+}
